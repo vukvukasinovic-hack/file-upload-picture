@@ -71,7 +71,6 @@
 				<p class="page-header">
 				<?php
 					$blahs   = getimagesize(dirname(__FILE__)."/".$UPLOAD_DIR.$row['picture']);
-					$blahss = 
 					if ($blahs['channels']==4){
 							$channel = 'CMYK';
 						}
@@ -81,7 +80,6 @@
 					
 				?>
 				<strong><?php echo $channel ?></strong>
-				<strong><?php echo print_r($blahs); ?></strong>
 				</p>
 				<p class="page-header">
 				<span>
